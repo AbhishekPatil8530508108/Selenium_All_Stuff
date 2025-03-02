@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/WORKSPACES/intellij-idea-workspace/Selenium_All_Stuff/src/main/java/org/TestNG/Grouping/Grouping_Demo1.java">
+        <groups>
+            <run>
+                <include name="sanity"/>
+            </run>
+        </groups>
+        <!--<groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <groups>
+            <run>
+                <include name="sanity"/>
+                <exclude name="regression"></exclude>
+            </run>
+        </groups>
+        <groups>
+            <run>
+                <include name="regression"/>
+                <exclude name="sanity"></exclude>
+            </run>
+        </groups>
+        <groups>
+            <run>
+                <include name="functional"/>
+            </run>
+        </groups>-->
+        <classes>
+            <class name="org.TestNG.Grouping.Grouping_Demo1"></class>
+            <class name="org.TestNG.Grouping.Grouping_Demo2"></class>
+            <class name="org.TestNG.Grouping.Grouping_Demo3"></class>
+        </classes>
+    </test>
+
+</suite>

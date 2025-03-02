@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/WORKSPACES/intellij-idea-workspace/Selenium_All_Stuff/src/main/java/org/TestNG">
+        <classes>
+            <class name="org.TestNG.DemoExample.TestNG_Demo">
+                <methods>
+                    <include name="openapp"/>
+                    <include name="login"/>
+                    <include name="logout"/>
+                </methods>
+            </class>
+            <class name="org.TestNG.DemoExample.TestNgFacebookTest">
+                <methods>
+                    <include name="openapp"/>
+                    <include name="testLogo"/>
+                    <include name="testLogin"/>
+                    <include name="testLogout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

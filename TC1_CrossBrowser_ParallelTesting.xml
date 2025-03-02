@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="3">
+
+    <test name="chrome test" thread-count="5" parallel="methods">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCases.TC1_Account_Registration_Test">
+                <methods>
+                    <include name="verify_Account_Registration"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="edge test" thread-count="5" parallel="methods">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="testCases.TC1_Account_Registration_Test">
+                <methods>
+                    <include name="verify_Account_Registration"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="firefox test" thread-count="5" parallel="methods">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="testCases.TC1_Account_Registration_Test">
+                <methods>
+                    <include name="verify_Account_Registration"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

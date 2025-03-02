@@ -1,0 +1,65 @@
+1.Hybrid Automation Framework
+    Using JAVA, SELENIUM, TestNG, MAVEN, POM
+2.Dependency's
+    https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
+   OR
+    https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    https://mvnrepository.com/artifact/org.apache.poi/poi
+    https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
+    https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
+    https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api
+    https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl
+    https://mvnrepository.com/artifact/commons-io/commons-io
+    https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+    https://mvnrepository.com/artifact/org.testng/testng
+    https://mvnrepository.com/artifact/com.aventstack/extentreports
+3.Valid Invalid
+/* Data is valid  - login success  - test pass  - logout
+   Data is valid  -- login failed  - test fail
+
+   Data is invalid - login success - test fail  - logout
+   Data is invalid -- login failed  - test pass
+*/
+4.To Run Project on Grid use command
+    java -jar selenium-server-4.29.0.jar standalone
+ AFTER USE URL:
+     http://192.168.242.162:4444
+5.To Launch Remote Driver
+    driver=new RemoteWebDriver(new URL("http:localhost:4444/wd/hub"))
+6.Docker - Containerization
+    A=>Basic Docker Commands:
+        1.docker version   # Displays the Docker version installed
+        2.docker -v        # Also shows the Docker version (alternative)
+        3.docker info      # Provides detailed system-wide information about Docker
+        4.docker --help    # Lists available Docker commands and options
+        5.docker login     # Logs in to Docker Hub or a private registry
+    B=>Image Commands:
+        1.docker images         #Lists all locally available images.
+        2.docker pull ubuntu    #Downloads the latest Ubuntu image from Docker Hub.
+        3.docker rmi <image_id> #Removes the specified image from the local system.
+   C=>Container Commands:
+        1.docker ps                     # Lists running containers
+        2.docker run -it ubuntu         # Runs a new container using the Ubuntu image
+        3.docker start <CONTAINER ID>   # Starts an existing stopped container
+        4.docker stop <CONTAINER ID>    # Stops a running container
+        5.docker rm <container_id/name> # Removes a container
+   D=>System commands
+        1.docker stats
+        2.docker system df
+        3.docker system prune -f
+
+7.Need To Download 3 Images:
+        1.docker pull selenium/hub
+        2.docker pull selenium/node-firefox
+        3.docker pull selenium/node-chrome
+8.Execute these commands on command prompt for Docker Network Create Grid
+    1.docker run -d -p 4442-4444:4442-4444 --net grid --name selenium-hub selenium/hub
+    2.docker run -d --net grid -e SE_EVENT_BUS_HOST=selenium-hub -e SE_EVENT_BUS_PUBLISH_PORT=4442 -e SE_EVENT_BUS_SUBSCRIBE_PORT=4443 selenium/node-firefox
+    3.docker run -d --net grid -e SE_EVENT_BUS_HOST=selenium-hub -e SE_EVENT_BUS_PUBLISH_PORT=4442 -e SE_EVENT_BUS_SUBSCRIBE_PORT=4443 selenium/node-chrome
+9.Another Way To Execute Selenium Grid by creating file Docker-compose.YAML in project root directory
+    go to the file location open cmd run "docker-compose up" command
+    ===>docker-compose up
+
+
+
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="D:/WORKSPACES/intellij-idea-workspace/Selenium_All_Stuff/src/test/java/testCases/TC1_Account_Registration_Test.java">
+        <parameter name="os" value="windows"></parameter>
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="testCases.TC1_Account_Registration_Test"/>
+            <class name="testCases.TC2_Login_Test"/>
+            <class name="testCases.TC3_Login_DDT"/>
+        </classes>
+    </test>
+</suite>

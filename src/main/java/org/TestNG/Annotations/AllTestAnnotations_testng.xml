@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/WORKSPACES/intellij-idea-workspace/Selenium_All_Stuff/src/main/java/org/TestNG/Annotations/TestNg_All_Annotations.java">
+        <classes>
+            <class name="org.TestNG.Annotations.TestNg_All_Annotations">
+                <methods>
+                    <include name="search"/>
+                    <include name="advanceSearch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

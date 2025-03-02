@@ -1,0 +1,10 @@
+name=abhi
+age=26
+url=https://www.facebook.com/
+browser=chrome
+############# Login Data #####################
+Email=abhishek
+Password=Abhi@1008
+############# Login Data Object Repository####
+Email.xpath=//input[@id='email']
+Password.xpath=//input[@id='pass']

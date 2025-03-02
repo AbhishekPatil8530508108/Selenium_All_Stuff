@@ -1,0 +1,38 @@
+17:27:49.980 [main] INFO  testCases.TC1_Account_Registration_Test - Clicked on My Account
+17:27:51.350 [main] INFO  testCases.TC1_Account_Registration_Test - Clicked on Register Page
+17:27:51.350 [main] INFO  testCases.TC1_Account_Registration_Test - Providing All Related Data
+17:27:56.798 [main] INFO  testCases.TC1_Account_Registration_Test - Validating Expected Text
+17:27:57.093 [main] INFO  testCases.TC1_Account_Registration_Test - Finished TC1_Account_Registration_Test
+17:28:19.224 [main] INFO  testCases.TC1_Account_Registration_Test - Starting TC1_Account_Registration_Test
+17:28:20.871 [main] INFO  testCases.TC1_Account_Registration_Test - Clicked on My Account
+17:28:22.170 [main] INFO  testCases.TC1_Account_Registration_Test - Clicked on Register Page
+17:28:22.171 [main] INFO  testCases.TC1_Account_Registration_Test - Providing All Related Data
+17:28:25.152 [main] INFO  testCases.TC1_Account_Registration_Test - Validating Expected Text
+17:28:25.624 [main] INFO  testCases.TC1_Account_Registration_Test - Finished TC1_Account_Registration_Test
+17:55:04.999 [main] INFO  testCases.TC1_Account_Registration_Test - Starting TC1_Account_Registration_Test
+17:55:35.461 [main] ERROR testCases.TC1_Account_Registration_Test - Test Failed...
+17:55:35.462 [main] DEBUG testCases.TC1_Account_Registration_Test - Debug logs....
+22:05:17.398 [main] INFO  testCases.TC1_Account_Registration_Test - Starting TC1_Account_Registration_Test
+22:05:17.696 [main] INFO  testCases.TC1_Account_Registration_Test - Clicked on My Account
+22:05:18.313 [main] INFO  testCases.TC1_Account_Registration_Test - Clicked on Register Page
+22:05:18.313 [main] INFO  testCases.TC1_Account_Registration_Test - Providing All Related Data
+22:05:21.344 [main] INFO  testCases.TC1_Account_Registration_Test - Validating Expected Text
+22:05:21.541 [main] INFO  testCases.TC1_Account_Registration_Test - Finished TC1_Account_Registration_Test
+22:05:39.055 [main] INFO  testCases.TC1_Account_Registration_Test - Starting TC1_Account_Registration_Test
+22:05:39.701 [main] INFO  testCases.TC1_Account_Registration_Test - Clicked on My Account
+22:05:40.875 [main] INFO  testCases.TC1_Account_Registration_Test - Clicked on Register Page
+22:05:40.875 [main] INFO  testCases.TC1_Account_Registration_Test - Providing All Related Data
+22:05:43.459 [main] INFO  testCases.TC1_Account_Registration_Test - Validating Expected Text
+22:05:43.590 [main] INFO  testCases.TC1_Account_Registration_Test - Finished TC1_Account_Registration_Test
+22:06:32.590 [main] INFO  testCases.TC1_Account_Registration_Test - Starting TC1_Account_Registration_Test
+22:06:33.120 [main] INFO  testCases.TC1_Account_Registration_Test - Clicked on My Account
+22:06:33.995 [main] INFO  testCases.TC1_Account_Registration_Test - Clicked on Register Page
+22:06:33.995 [main] INFO  testCases.TC1_Account_Registration_Test - Providing All Related Data
+22:06:36.201 [main] INFO  testCases.TC1_Account_Registration_Test - Validating Expected Text
+22:06:36.311 [main] INFO  testCases.TC1_Account_Registration_Test - Finished TC1_Account_Registration_Test
+22:06:47.992 [main] INFO  testCases.TC1_Account_Registration_Test - Starting TC1_Account_Registration_Test
+22:06:48.673 [main] INFO  testCases.TC1_Account_Registration_Test - Clicked on My Account
+22:06:50.185 [main] INFO  testCases.TC1_Account_Registration_Test - Clicked on Register Page
+22:06:50.186 [main] INFO  testCases.TC1_Account_Registration_Test - Providing All Related Data
+22:06:52.334 [main] INFO  testCases.TC1_Account_Registration_Test - Validating Expected Text
+22:06:52.451 [main] INFO  testCases.TC1_Account_Registration_Test - Finished TC1_Account_Registration_Test

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.TestNG.Listeners.Listeners_Demo"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="D:/WORKSPACES/intellij-idea-workspace/Selenium_All_Stuff/src/main/java/org/TestNG/Listeners/Listeners_Demo.java">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="D:/WORKSPACES/intellij-idea-workspace/Selenium_All_Stuff/src/main/java/org/TestNG/Listeners/Listeners_Demo2.java">
+        <classes>
+            <class name="org.TestNG.Listeners.Listeners_Demo2">
+                <methods>
+                    <include name="testLogin"/>
+                    <include name="testTitle"/>
+                    <include name="testUrl"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
