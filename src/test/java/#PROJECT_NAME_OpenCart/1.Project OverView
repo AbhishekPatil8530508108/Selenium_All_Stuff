@@ -59,6 +59,43 @@
 9.Another Way To Execute Selenium Grid by creating file Docker-compose.YAML in project root directory
     go to the file location open cmd run "docker-compose up" command
     ===>docker-compose up
+10.Git & GitHub workflow
+
+ A] Round 1
+
+   1) Create a new local repository (one time)
+   ==>git init
+
+   2) Provide user info to Git repository (one time)
+   ==>git config --global user.name "your name"
+   ==>git config --global user.email "your email"
+
+   3) Adding files/folders to staging/indexing
+   ==>git add -A        # Add all the files and folders to staging
+   ==>git add filename  # Add a specific file
+   ==>git add *.java    # Add all Java files
+   ==>git add foldername  # Add a specific folder
+
+   4) Commit the code into Local Git repository
+   ==>git commit -m "commit message"
+
+   5) Connect local repository with remote repository (one time)
+   ==>git remote add origin "https://github.com/pavanoltraining/OpencartV121.git"
+
+   6) Push the code into remote repository
+   ==>git push origin master
+
+ B] Round 2
+
+   ==>git add -A
+   ==>git commit -m "commit msge"
+   ==>git push origin master
+
+   2) Pull the files from remote repository
+   ==>git pull "https://github.com/pavanoltraining/OpencartV121.git"
+
+   3)Clone a new repository to local system
+   ==>git clone "https://github.com/pavanoltraining/testrepo.git"
 
 
 
